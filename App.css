@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Knewave&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+  font-family: Roboto;
+}
+
+body {
+  --primary: #ffee58;
+  /* position: absolute; */
+  /* width: 900px; */
+  margin-left: auto;
+  margin-right: auto;
+  
+  text-align: center;
+  /* background-image: url("images\imc.jpg"); */
+}
+
+h1,
+button {
+  font-family: Knewave;
+  background-color: var(--primary);
+  
+}
+
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.wrapper {
+  padding: 20px;
+   width: 300px;
+  margin: auto;
+  border: 3px solid #101011;
+}
+
+input,
+button {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.interpretation {
+  margin-bottom: 70px;
+}
+
+ul {
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  form,
+  .interpretation,
+  ul {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .interpretation {
+    margin-bottom: 70px;
+  }
+
+  input,
+  button {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 30px;
+  }
+}
+
+p{
+    text-align: left;
+}
+
+div, input{
+    text-align: left;
+}
+
+/* div, button{
+    text-align: left;
+} */
+form, button{
+    border-radius: 30px;
+}
